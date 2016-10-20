@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Trello</title>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navtop navbar-fixed-top"></nav>
+    </header>
+	<section>
+        <h2 class="h2">Mi tarjetero</h2>
+        <div id="contenedor" class="scroll container-fluid">
+            <div id="contenedorTrello" class="contenedorTrello bloque-inline">
+                <div id="tarjetaLista" class="tarjetaLista">Añadir lista ...</div>
+                <form id="formLista" class="form ocultar">
+                    <input type="text" id="inputTitulo" placeholder="Añadir título..." class="form-control">
+                    <button type="submit" id="botonLista" class="botonClass btn btn-success" disabled>Añadir</button>
+                </form>
+            </div>
+        </div>   
+    </section>
+    <script type="text/javascript" src="js/tether.min.js"></script>
+  	<script type="text/javascript" src="js/app.js"></script>		
+</body>
+</html>

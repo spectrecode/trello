@@ -1,0 +1,82 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-image: url(../img/lago.jpg);
+	background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 60px;
+}
+header{
+    margin-bottom: 60px;
+}
+.scroll {
+    white-space: nowrap;
+}
+.h2{
+    color: gainsboro;
+    padding: 5px 0px 15px 20px;
+    background-color: rgba(0, 64, 139, 0.36);
+}
+.ocultar {
+    display: none;
+}
+.nuevaTarjeta {
+    color: #80a7a7;
+    transition: width 0.5s, height 0.6s, background-color 0.5s, transform 2s;
+    padding: 5px;
+    margin: 6px -7px -7px;
+    border-radius: 0px 0px 5px 5px;
+}
+.nuevaTarjeta:hover {
+    background-color: rgba(170, 199, 194, 0.73);
+    color: #7b988a;
+}
+.navtop {
+    height: 60px;
+    background-color: #00757b;
+    width: 100%;
+}
+.tarjetaLista {
+    background-color: rgba(20, 140, 134, 0.95);
+    height: 50px;
+    width: 280px;
+    border-radius: 5px;
+    color: #b6cac9;
+    padding: 13px;
+    margin: 5px;
+}
+.tarjetaLista:hover {
+    background-color: rgba(0, 70, 84, 0.80);
+}
+.form {
+    width: 280px;
+    background-color: #c6e2e0;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 5px;
+    white-space: normal;
+}
+.tarjetaValue{
+     background-color: #9fd6d5;
+     border-color: transparent;
+     margin-bottom: 4px;
+}
+.tarjetaValue:hover {
+    background-color: #8bbdb8;
+    transition: width 0.25s, height 0.25s, background-color 0.25s, transform 25s;
+}
+.bloque-inline{
+    display: inline-block;
+    vertical-align: top;
+    word-break: break-all;
+}
+.botonClass {
+    width: 80px;
+    padding: 7px 10px;
+}
+.contenedorTrello {
+    display: inline-block;
+}
